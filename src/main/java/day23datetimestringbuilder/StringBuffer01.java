@@ -12,7 +12,7 @@ public class StringBuffer01 {
     Note 1: Immutable String lazim oldugunda String Class kullanilir.
     Note 2: Mutable String  lazim oldugunda StringBuilder veya StringBuffer kullanilir.
     Note 3: StringBuffer "Multi Thread ve "synchronization" lazin oldugunda tercih edilir.
-            StringBuilder "Multi Thread ve "synchronization" gerekmezse tercih edilir...
+            StringBuilder "Multi Thread ve "synchronization" gerekmezse tercih edilir.....
          */
     public static void main(String[] args) {
 
