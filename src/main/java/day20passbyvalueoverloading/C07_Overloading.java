@@ -25,7 +25,7 @@ public class C07_Overloading {
 
     }//Main
 
-    private static void topla(double a, double b) {
+    private static void topla(double  a, double b) {
         System.out.println(a+b);
     }//Method
 
