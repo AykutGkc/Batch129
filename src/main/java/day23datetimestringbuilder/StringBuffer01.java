@@ -20,7 +20,7 @@ public class StringBuffer01 {
         StringBuffer sbf = new StringBuffer("Java");
         System.out.println(sbf);
 
-        System.out.println(sbf.capacity());//20
+        System.out.println(sbf.capacity());
 
 
 
