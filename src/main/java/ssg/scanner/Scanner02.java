@@ -1,4 +1,4 @@
-package ssg;
+package ssg.scanner;
 
 import java.util.Scanner;
 

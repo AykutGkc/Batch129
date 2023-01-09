@@ -409,7 +409,52 @@ public class A01Örnekler {
 
     */
 
+/*
+   Advance practiceday01_201222
 
+   1)Kullanicidan alinan bir sayinin ilk ve son rakamlari toplamini toplayan kodu yaziniz.(Q06_WhileLoop_IlkVeSonRakam)
+       practice.Advancejavapractice.practiceday02_241022
+
+    practice.Advancejavapractice.practiceday02_241022
+
+   2)Adınızın içerdiği harfleri ve ascii table kullanmadan, adınızı yazdıran bir kod yazınız.(Q01_Ascii_AdiniYaz)
+
+   3)
+   katsayıları verilen 1 bilinmeyenli denklemin kökleriniz bulunuz.
+        ax² + bx + c;
+        Çözüm adımları
+        kullanıcıdan a,b,c yi alın.
+        Diskriminant formülü: (-b +/- karekök(delta)) / (2a)
+        Delta = bb - 4ac
+        Delta > 0 => 2 tane kök vardır x1=(-b + kök(d)) / (2a)  , x2= (-b - kök(d)) / (2*a)
+        Delta = 0 => 1 tane kök vardır x = -b/2a
+        Delta < 0 ise kök yoktur.(Q02_If_Diskriminant)
+
+     4)Bir Array içerisindeki 'minimum', 'maksimum'  ve 'ikinci maksimum' değerleri bulan bir kod yazınız.(Q03_Arrays_IkinciMaksimimum)
+        input: int[] arr = { 100, 10001, -90, 845, 8787, 898, 0, 1};
+        output: min:-90, max:10001, secMax: 8787
+
+    5)Rastgele bir harf veren bir method oluşturun ve ardından methodu kullanarak aşağıdakileri yazdırınız.(Q04_RandomMethod_RastgeleHarf)
+        ‘A’ ve ‘a’ için “İlk Karakter” yazdırınız.
+        ‘B’ ve ‘b’ için “İkinci Karakter” yazdırınız.
+        ‘C’ ve ‘c’ için “Üçüncü Karakter” yazdırınız.
+        ‘D’ ve ‘d’ için “Dördüncü Karakter” yazdırınız.
+        Diğerleri için “Diğer Karakterleri” yazdırınız.
+
+      6) Elementlerini kullanıcıdan alarak bir integer Array oluşturunuz.(Q05_Arrays_ElemanSil)
+         Kullanıcıdan bir indeks alınız ve o indeksteki elementi siliniz.
+
+      7)Şekli Yazdırınız:  (Q06_ForLoop_Sekil)
+
+        A
+        B B
+        C C C
+        D D D D
+        E E E E E
+        F F F F F F
+
+
+ */
 
 
 

@@ -11,7 +11,7 @@ public class Q02_If_Diskriminant {
         Çözüm adımları
         kullanıcıdan a,b,c yi alın.
         Diskriminant formülü: (-b +/- karekök(delta)) / (2a)
-        Delta = bb - 4ac
+        Delta = b*b - 4ac
         Delta > 0 => 2 tane kök vardır x1=(-b + kök(d)) / (2a)  , x2= (-b - kök(d)) / (2*a)
         Delta = 0 => 1 tane kök vardır x = -b/2a
         Delta < 0 ise kök yoktur.

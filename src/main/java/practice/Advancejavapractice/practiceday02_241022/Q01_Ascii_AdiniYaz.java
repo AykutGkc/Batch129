@@ -5,12 +5,12 @@ public class Q01_Ascii_AdiniYaz {
 
         //Adınızın içerdiği harfleri ve ascii table kullanmadan, adınızı yazdıran bir kod yazınız.
 
-
-        char ch1='B'-1;
-        char ch2='m'-1;
-        char ch3='h'+1;
+        char ch1='b'-1;
+        char ch2='z'-1;
+        char ch3='m'-2;
 
         System.out.println(""+ch1+ch2+ch3);
+
 
 
 
