@@ -1,6 +1,6 @@
 package day23datetimestringbuilder;
 
-public class StringBuffer01 {
+public class C03_StringBuffer01 {
 
     /*
     String olusturmak icin String var, String builder var ve String buffer kullanabilir.
