@@ -1,9 +1,8 @@
 package z_mentorgrubu;
 
-import java.util.Arrays;
 import java.util.Random;
 
-public class C15 {
+public class C15_AdvantagePRactice_090123 {
 
     public static void main(String[] args) {
 

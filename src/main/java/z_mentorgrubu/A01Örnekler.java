@@ -458,6 +458,60 @@ public class A01Örnekler {
 
 
 
+/*
+    practice.Advancejavapractice.practiceday02_241022
+
+
+   1) Elementlerini kullanıcıdan alarak bir integer Array oluşturunuz.(Q05_Arrays_ElemanSil)
+         Kullanıcıdan bir indeks alınız ve o indeksteki elementi siliniz.
+
+    2)Şekli Yazdırınız:  (Q06_ForLoop_Sekil)
+
+        A
+        B B
+        C C C
+        D D D D
+        E E E E E
+        F F F F F F
+
+     practice.Advancejavapractice.practiceday03_271222
+
+
+     3)Kullanıcıdan alınan bir sayıdan başlayarak ardışık sayıları 10'un katına gelene kadar yazdıran bir kod yazınız.
+       Örn: Sayı: 46 Çıktı: 46, 47, 48, 49    (Q01_WhileLoop_10KatinaKadar )
+
+     4)Kullanıcdan aldığınız bir sayıyı bir list'e ekleyen, list'ten çıkaran
+       yada mevcut bir elementi o sayı ile güncelleyen bir kod yazınız.  (Q02_List_EkleCikar)
+
+     5)0 ile 100 arasında rastgele numara tahmini yapan bir kod yazın.   (Q03_DoWhile_TahminOyunu)
+         İpucu: Girdiğiniz numara rastgeleNumara'dan küçükse ==> Daha büyük bir numara giriniz.
+             Girdiğiniz numara rastgeleNumara'dan büyükse ==> Daha küçük bir numara giriniz.
+             Girdiğiniz numara rastgeleNumara'ya eşitse ==> Tebrikler!!! ? tahminde sayiyi buldunuz. Puaniniz: ?
+
+     6)Aşağıdaki multi dimensional array'lerin iç array'lerinde aynı indexe sahip elamanların
+      toplamını yazdıran bir program yazın. (Q04_MultiArray_AyniIndexTop)
+      arr1[]={{1,2},{3,4,5}{6}}
+      arr2[]={{7,8,9},{10,11},{12}}
+
+      7)2 boyutlu bir tablo olarak, ekrana çarpım tablosunu hesaplayıp yazan kodu yazınız. (Q05_NestedForLoop_Carpim)
+       Örnek Ekran çıktısı
+       1  2  3  4  5
+       2  4  6  8 10
+       3  6  9 12 15
+       4  8 12 16 20
+       5 10 15 20 25
+       Ekran çıktısı 5 x 5 boyutları için örnek olarak verilmiştir,
+       isterseniz boyutları klavyeden okuyup istenen boyutlara göre
+       ekrana basan bir kod yazabilirsiniz.
+
+       8)Kullanıcıdan 5 adet sayı isteyiniz
+      Bu sayılardan 5 ile 10 arasındakiler hariç, diğerlerinin toplamını bulunuz.
+      Not: 5 ve 10 dahil değil.     (Q06_ForLoop_Continue)
+
+
+ */
+
+
 
 
 
