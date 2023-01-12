@@ -1,4 +1,4 @@
-package day22_Staticblocksconstructors;
+package day22staticblocksconstructors;
 
 
 /*

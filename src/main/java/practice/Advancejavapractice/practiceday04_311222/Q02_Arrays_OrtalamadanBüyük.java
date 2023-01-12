@@ -1,6 +1,6 @@
 package practice.Advancejavapractice.practiceday04_311222;
 
-public class Q01_Arrays_OrtalamadanBüyük {
+public class Q02_Arrays_OrtalamadanBüyük {
     public static void main(String[] args) {
 
         //Verilen bir Array'in elementlerinin ortalamasından büyük elementleri yazdıran bir kod yazınız.
