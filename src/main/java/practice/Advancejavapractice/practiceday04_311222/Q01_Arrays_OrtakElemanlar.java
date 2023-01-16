@@ -16,6 +16,7 @@ public class Q01_Arrays_OrtakElemanlar {
 
         String[] arr = {"John","Brad","Angel","Sofia","Emily"};
         String[] brr = {"sofia","brad","grace","emily","hazel"};
+
         List<String> list = new ArrayList<>();
 
 

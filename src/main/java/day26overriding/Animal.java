@@ -20,6 +20,26 @@ public class Animal {
         9)Method'un return type'i "Wrapper Class" ise, Overriding yaparken return type degistirilemez. Cunku; return type ya ayni olur veya parent'dan secilir,
           ama Java bir wrapper class'i digerinin parent'i yapmadigindan parent'dan secme ihtimali yoktur, geriye sadece aynisi olma ihtimali kalir
        10)Method'un return type'i "void" ise Overriding yaparken return type degistirilemez.
+
+        11) Final kelimesini "Variable"larda kullanabilirsiniz.
+                    ->final variable ise
+                    i) mutlaka değer atanmalıdır
+                    ii) ilk atanan değer değiştirilemez
+
+         12)Final kelimesini "Method" larda kullanabilirsiniz.
+                     ->method final ise;
+                      i)methodun body'si değiştirilemez
+                      ii)method body'si değiştirilemeyince override yapmak mümkün olmaz
+
+        13)Final kelimesini "Class"larda kullanabilirsiniz.
+                     ->class final ise;
+                       i)o class'ın child'ı olamaz
+
+         14) "final" methodlar ve "static" methodlar "override" edilemezler.
+         15)"override" yapabilmek icin "Inheritance" sarttir. Baska bir ifade ile "Parent-child" iliskisi sarttir.
+         16)"Method overloading" "Compile time Polymorplism"'dir, Method overriding "Run Time Polymorplism"'dir
+         16)"Method overloading" "static Polymorplism"'dir, Method overriding "dynamic Polymorplism"'dir
+
      */
 
 
