@@ -1,4 +1,4 @@
-package day22staticblocksconstructors;
+package day13whileloopdowhileloop.day22staticblocksconstructors;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

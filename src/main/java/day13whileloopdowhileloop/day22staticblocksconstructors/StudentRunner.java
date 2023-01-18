@@ -1,4 +1,4 @@
-package day22staticblocksconstructors;
+package day13whileloopdowhileloop.day22staticblocksconstructors;
 
 public class StudentRunner {
 
