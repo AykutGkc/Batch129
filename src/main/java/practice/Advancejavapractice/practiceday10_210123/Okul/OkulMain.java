@@ -1,5 +1,9 @@
 package practice.Advancejavapractice.practiceday10_210123.Okul;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class OkulMain {
     /*
     1- Değişkenleri ad, soyad, yaş olan bir Ogrenci pojo class'ı oluşturunuz.
@@ -10,6 +14,20 @@ public class OkulMain {
         Bu yaşı geçen bir öğrenci eklenmek istenir ise yerine başka öğrenci isteyiniz.
      */
     public static void main(String[] args) {
+
+        Scanner scanner=new Scanner(System.in);
+        Okul okul=new Okul();
+        System.out.println("Okul adini giriniz");
+        okul.setOkulAdi(scanner.nextLine());
+        System.out.println("Maksimum ögrenci sayisini giriniz");
+        okul.setMaxOgrenciSayisi(scanner.nextInt());
+        List<Ogrenci> ogrenciListesi=new ArrayList<>();
+
+        for (int i = 0; i < okul.getMaxOgrenciSayisi() ; i++) {
+
+        }
+
+
 
     }
 }
