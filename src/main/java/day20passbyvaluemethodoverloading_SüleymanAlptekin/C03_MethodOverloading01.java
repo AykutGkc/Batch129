@@ -14,7 +14,7 @@ public class C03_MethodOverloading01 {
          4)Method Overloading olustururken return type'i degistirmenin hicbir etkisi yoktur.
            Method Overloading olustururken access modifier degistirmenin hicbir etkisi yoktur.
            Method Overloading olustururken static veya non-static yapmanin  hicbir etkisi yoktur.
-           Method Overloading olustururken Ethod body'i degistirmenin hicbir etkisi yoktur.
+           Method Overloading olustururken mEthod body'i degistirmenin hicbir etkisi yoktur.
          5)"private" methodlar overloading edilebilir. Cünkü method overloading sadece bir classin icined olur.
             "Private" olmak ise baska class'lara gidildiginde problem olusturur.
 
@@ -27,9 +27,7 @@ public class C03_MethodOverloading01 {
 
     }
 
-    public static void add(int a, int b){
-        System.out.println(a+b);
-    }
+    public static void add(int a, int b){System.out.println(a+b);}
     public static void add(double a, double b) {
         System.out.println(a + b);
     }

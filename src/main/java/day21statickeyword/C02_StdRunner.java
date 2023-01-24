@@ -16,8 +16,8 @@ public class C02_StdRunner {
 
         C01_Student01 std2=new C01_Student01();
 
-        String initials=C01_Student01.getInitials("Tom Cruise"); //TC
-        System.out.println(initials);
+        String initials=C01_Student01.getInitials("Tom Cruise");
+        System.out.println(initials);//TC
 
         int vowels=std1.countVowels("Tom Cruise");
         System.out.println(vowels);//4

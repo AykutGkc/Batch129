@@ -64,6 +64,7 @@ public class C02_StringBuilder01 {
         //String classda varolan ama String Builder classta varolmayan (ör.split()) methodlara ihtiyac duydugumuzda
         //toString() methodunu kullanarak String Class gecer ve o methodu kullaniriz.
         sb3.toString().split("l");
+        System.out.println("sb3 = " + sb3);
 
         //Stringi tekrar StringBuildera cevirebilirsiniz.
         StringBuilder sb4=new StringBuilder(sb3);
