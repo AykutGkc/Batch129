@@ -1,4 +1,4 @@
-package practice.Regularjavapractice.practiceday08;
+package practice.Regularjavapractice.practiceday08_170123;
 
 public class Kumanda {
 
