@@ -1,4 +1,4 @@
 package practice.Regularjavapractice.practiceday09_240123;
 
-public class KralDairesi {
+public class KralDairesi extends Otel{
 }
