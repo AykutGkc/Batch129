@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class Queue01 {
+public class C03_Queue01 {
     /*
     Queue'lar da ilk gelen ilk isleme girer.(First in First out ==>FIFO)
     Bazen de son gelen ilk isleme girer.(Last In First Out ==> LIFO)

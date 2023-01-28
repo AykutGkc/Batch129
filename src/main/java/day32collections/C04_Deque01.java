@@ -3,7 +3,7 @@ package day32collections;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class Deque01 {
+public class C04_Deque01 {
 
 
     public static void main(String[] args) {
