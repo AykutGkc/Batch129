@@ -11,6 +11,11 @@ public class TekKisilik extends Otel{
 
     }
 
+    @Override
+    public void kahvalti() {
+        System.out.println("Sadece Sandvic");
+    }
+
     public int TV(int saat){
         return saat*2;//tv izlemenin saati 2 dolar
     }
