@@ -80,6 +80,8 @@ public class Lambda01 {
         getMinGreaterThanSevenEven(nums);
 
 
+
+
     }
     //1)Create a method to print the list elements on the console in the same line with a space between two consecutive elements.(Structured)
     //Bir listte ki elemanlari ayni satirda aralarina bosluk koyarak yazdiran methodu olusturunuz.
