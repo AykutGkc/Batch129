@@ -19,7 +19,7 @@ public class Hastane extends VeriBankasi {
         this.basHekim = basHekim;
     }
 
-    public static void DoktorUnvan() {
+    public static void doktorUnvan() {
         VeriBankasi obj = new VeriBankasi();
 
         Scanner input = new Scanner(System.in);
@@ -51,12 +51,12 @@ public class Hastane extends VeriBankasi {
                     break;
                 default:
                     System.out.println("Seciminiz yanlis.Lütfen Tekrar deneyiniz");
-                    DoktorUnvan();
+                    doktorUnvan();
             }
 
         }catch (InputMismatchException e){
             System.out.println("Yanlis giris.Lütfen Menüden secim yapiniz.");
-            DoktorUnvan();
+            doktorUnvan();
         }
 
     }
