@@ -123,7 +123,7 @@ public class Lambda01 {
     //10) List elemanlarindan karakter sayisi cift sayi olanlari bir list icindde ekrana yazdirin.
 
     public static List<String> printElementsLengthEven(List<String>list){
-        return list.stream().filter(Utils::isEven).collect(Collectors.toList());
+        return list.stream().filter(Utils::isLengthEven).collect(Collectors.toList());
     }
 
     public static void printAllSortWithLastCharUpperDistinct2(List<String>list){
