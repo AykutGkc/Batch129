@@ -98,7 +98,7 @@ public class Lambda01 {
 
     //Example 7: Karakter sayisi 5 den fazla olan elemanlari siliniz ve sonucu list olarak yazdiriniz
     //  public static List<String>removeElementIfTheLengthGreaterThanFive(List<String>list){
-    //      list.removeIf(t->t.length()>5);
+    //      list.removeIf(t->t.length()>5);.
     //      return list;
     //  }
 
