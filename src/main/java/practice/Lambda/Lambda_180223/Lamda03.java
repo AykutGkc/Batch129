@@ -1,5 +1,7 @@
 package practice.Lambda.Lambda_180223;
 
+import practice.Lambda.Utils;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -7,7 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Lamda03 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassCastException {
 
         Apartman da01 = new Apartman("dogu", 1, 7000);
         Apartman da02 = new Apartman("bati", 2, 10000);
@@ -23,6 +25,10 @@ public class Lamda03 {
         System.out.println("\n **********");
         System.out.println(kataGöreSiralama(daireler));
         System.out.println("\n **********");
+        System.out.println(katsayisi2denFazlaOlanKirayaGöreSiralaEnBüyKiraYazdir(daireler));
+        System.out.println("\n **********");
+        System.out.println(katSayisi3denAzOlanKiraGoreKucBuySırEnKUcKiraListYazdır(daireler));
+
 
     }
     // SORU1: Tüm dairelerin kira'ları 5000'den buyuk ise return ederek True yazdırın
@@ -58,5 +64,35 @@ public class Lamda03 {
         return sonuc;
     }
 
+//Soru 5 KAtsayisin 2den fazla olan daireleri, kiraya göre büyükten kücüge siralayiniz.
+// En büyük kirasini list halinde retern ederek yazdirin.
+
+    public static List<Integer> katsayisi2denFazlaOlanKirayaGöreSiralaEnBüyKiraYazdir(List<Apartman> daireler) {
+        List<Integer> sonuc = daireler.
+                            stream().
+                            filter(t -> t.getKatSayi() > 2).
+                            sorted(Comparator.comparing(Apartman::getKira).reversed()).
+                             limit(1).
+                             map(t -> t.getKira()).collect(Collectors.toList());
+
+        return sonuc;
+ }
+
+ //soru6 katsayisi 3den az olan daireleri kiraya göre kücükten büyüge siralayiniz
+    //En kücük kirasini list halinde return ederek yazdirin
+
+    public static List<Integer> katSayisi3denAzOlanKiraGoreKucBuySırEnKUcKiraListYazdır(List<Apartman> daireler) {
+
+        List<Integer> sonuc = daireler.
+                stream().
+                filter(t -> t.getKatSayi() < 3).
+                sorted(Comparator.comparing(Apartman::getKira)).
+                limit(1).
+                map(t -> t.getKira()).
+                collect(Collectors.toList());
+
+        return sonuc;
+
+    }
 
 }

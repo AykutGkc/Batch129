@@ -2,6 +2,7 @@ package practice.Lambda;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class Lambda01 {
@@ -40,4 +41,10 @@ public class Lambda01 {
     }
 
 
+    //5 List elemanlarini büyüktten kücüge dogru siralayarak yaazdirin
+
+    public static void büyüktenKücügeSirala(List<Integer> sayi) {
+        sayi.stream().sorted(Comparator.reverseOrder()).forEach(Utils::yazdir);
+
+    }
 }
