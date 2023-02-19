@@ -1,5 +1,6 @@
 package day31collections;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -23,9 +24,9 @@ public class LinkedList01 {
 
      */
     public static void main(String[] args) {
-        List<String> Citynames=new LinkedList<String>();
+        List<String> Citynames = new LinkedList<String>();
 
-        LinkedList<String> names=new LinkedList<String>();
+        LinkedList<String> names = new LinkedList<String>();
 
         names.add("Steve");
         names.add("Ajda");
@@ -41,7 +42,7 @@ public class LinkedList01 {
         names.addLast("Ajda"); //This method is equivalent to add.
         System.out.println(names);//[Cüneyt, Steve, Ajda, Raj, Megan, Brandon, Ajda]
 
-        names.add(2,"Süleyman");
+        names.add(2, "Süleyman");
         System.out.println(names);//[Cüneyt, Steve, Süleyman, Ajda, Raj, Megan, Brandon, Ajda]
 
         names.remove("Ajda"); //Ilk  Ajda'yi siler.
@@ -54,7 +55,7 @@ public class LinkedList01 {
         names.add("Süleyman");
         System.out.println(names);//[Cüneyt, Steve, Süleyman, Raj, Brandon, Ajda, Süleyman]
 
-        String r1=names.remove();//Retrieves and removes the head (first element) of this list(Cut-paste)
+        String r1 = names.remove();//Retrieves and removes the head (first element) of this list(Cut-paste)
         System.out.println(r1);//Cüneyt
         System.out.println(names);//[Steve, Süleyman, Raj, Brandon, Ajda, Süleyman,Süleyman]
 
@@ -64,8 +65,8 @@ public class LinkedList01 {
         names.removeLastOccurrence("Süleyman");
         System.out.println(names);//[Steve, Raj, Brandon, Ajda, Süleyman]
 
-        String r2=names.peek();//Retrieves, but does not remove, the head (first element) of this list. (Copy-paste)
-                              //Returns: the head of this list, or null if this list is empty
+        String r2 = names.peek();//Retrieves, but does not remove, the head (first element) of this list. (Copy-paste)
+        //Returns: the head of this list, or null if this list is empty
         System.out.println(r2);//Steve
         System.out.println(names);//[Steve, Raj, Brandon, Ajda, Süleyman]
 
@@ -78,5 +79,8 @@ public class LinkedList01 {
         //This method is equivalent to removeFirst().
         //Returns:the element at the front of this list (which is the top of the stack represented by this list)
         names.pop();
+
     }
+
+
 }
