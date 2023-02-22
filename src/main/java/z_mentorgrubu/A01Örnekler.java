@@ -551,6 +551,31 @@ public class A01Örnekler {
 
     */
 
+/*
+ a+b>c>a-b
+        a+c>b>a-c
+        b+c>a>b-c
+        a=b=c ==> eskenar ücgen
+
+        2)Password'un ilk harfi buyuk harf ise
+            'A' olursa gecerli password yazdirin degilse gecersiz password yazdirin
+            Passwordun ilk harfi kucuk harf ise
+             'z' olursa gecerli passworde yazdirin degilse gecersiz password yazdirin
+
+         3) Kullanicidan 0 dan kücük 120 den büyük deger giremeyecek sekilde datalari altiktan sonra
+    eger calisan kadinsa 60 yasindan büyükse emekli olabilir yazdirin.
+    eger calisan erkekse 65 yasindan büyükse emekli olabilir yazdirin.
+
+
+        4) Verilen yilin artik yil olup olmadigini kontrol eden kodu yaziniz.
+            1) Yil 100'e bölünüyorsa 400'e bölünmelidir.
+            2) Yil 100'e bölünmüyorsa 4'e bölünmelidir.
+
+         5) Kullanicidan ismini soy ismini ve kredi karti bilgilerini isteyin ve asagida ki gibi yazdirin
+            Isim-Soyisim: A**** G****
+            Kart-No: **** **** **** 1907
+ */
+
 
 
 

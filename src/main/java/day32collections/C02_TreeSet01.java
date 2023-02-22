@@ -62,7 +62,7 @@ public class C02_TreeSet01 {
         System.out.println(ceiling2);//25 elemanlardan biri o yüzden direkt 25 yazdirdi.
 
         SortedSet<Integer> tailSet1=ts.tailSet(12);
-        System.out.println(tailSet1);//[12, 25, 32] --> 12 elelmanlardan biri ve o yüzden 12 ve sonraki elemanlar bir set icinde yazidirildi.
+        System.out.println(tailSet1);//[12, 25, 32] --> 12 elemanlardan biri ve o yüzden 12 ve sonraki elemanlar bir set icinde yazidirildi.
 
         SortedSet<Integer> tailSet2=ts.tailSet(15);
         System.out.println(tailSet2);//[25, 32] --> 15 elemanlardan biri degil, 15den sonraki elemanlar bir set icinde yazidirildi.
